@@ -130,25 +130,42 @@ verification prompt for a Claude session with internet access) and
 ## 6. Addendum: the NW-corner spot (38.865119, 1.355553)
 
 A specific candidate spot at the beach's northwest corner (by the Sa Caleta
-bend, ~1 min from the north access parking) was analysed separately:
+bend, ~1 min from the north access parking) was analysed separately.
 
-- Worst obstruction: **1.86°** — the *northern shoulder* of the Cala Jondal
-  promontory at only 1.9 km, az 286.8°. Nominal margin below the solar lower
-  limb: **1.0°**.
-- Unlike the southern half of the beach (critical sightline over open sea),
-  this sightline runs **over land for its entire length**, where the cone
-  terrain model is weakest. Decision threshold: if real terrain at the
-  1.5–2.5 km crossing (near 38.871, 1.331) is ≤ ~95 m the spot is clear;
-  ≥ ~115 m and totality is blocked. DEM verification required — see
-  `ibiza-eclipse-2026-verification-prompt.md`.
-- **The blocked zone is non-monotonic along the beach**: this corner looks over
-  the hill's low north flank; 500–1200 m south of it the 160 m summit aligns
-  exactly with the Sun (blocked); the reliably safe water-horizon stretch
-  starts ~1.6 km south (south of ≈38.852 N). The worst mistake is standing in
-  between.
-- No same-day escape: the Sun only sinks to terrain-relevant altitudes ~2 min
-  before totality, far too late to relocate. The choice must be made from DEM
-  data beforehand; without data, default to the southern half.
+A parameterized rerun of the same NOAA-style solar-position calculation at
+**20:33:18 CEST** gives:
+
+- Sun azimuth: **286.740°**
+- geometric centre altitude: **2.860°**
+- apparent centre altitude: **3.094°**
+- approximate lower solar limb (0.266° radius): **2.828°**
+
+For a 2 m observer eye height, with a small Earth-curvature correction
+(k=0.13), terrain directly on the eclipse bearing should remain below roughly
+**76 m at 1.5 km, 101 m at 2.0 km,
+126 m at 2.5 km, and 151 m at 3.0 km** for
+the entire solar disc to remain visible.
+
+The important unresolved quantity is the real terrain profile on the
+**~286.74° ray from this exact point**. The earlier cone approximation is
+useful for screening obvious summits, but it is not strong enough to promote a
+specific local shoulder height to fact. A DEM profile from Spain's IGN/PNOA
+MDT05 data is the appropriate final check.
+
+Until that DEM ray has been sampled, treat this exact NW-corner spot as
+**plausibly clear but not DEM-verified**. The southern open-water-horizon
+positions remain the conservative choice.
+
+A reproducible exact-point calculator is added as
+`ibiza-eclipse-2026-scripts/exact_point.py`.
+
+Prior cone-model findings retained for context: the worst modelled obstruction
+from this spot is ~1.9° (Cala Jondal promontory north shoulder at 1.9–2.2 km);
+the blocked zone along the beach is **non-monotonic** (500–1200 m south of this
+corner the 160 m summit aligns exactly with the Sun; the reliably safe
+water-horizon stretch starts south of ≈38.852 N); and there is no same-day
+escape — the Sun only reaches terrain-relevant altitudes ~2 minutes before
+totality, far too late to relocate.
 
 ## 7. Flight logistics (departure IBZ 22:25 the same evening)
 
