@@ -111,6 +111,10 @@ ridge is weakest — treat as unreliable rather than safe.
    the morning of the 12th; the fallback with the same open WNW sea horizon is
    the west coast (Cala Comte / Cala Bassa), ~30 min away.
 
+Companion files: `ibiza-eclipse-2026-verification-prompt.md` (paste-ready DEM
+verification prompt for a Claude session with internet access) and
+`ibiza-eclipse-2026-scripts/` (solar position + viewshed scripts used here).
+
 ## 5. Uncertainty
 
 - Individual horizon angles carry roughly ±0.3–0.5° from the cone terrain
@@ -123,7 +127,47 @@ ridge is weakest — treat as unreliable rather than safe.
   profile along azimuth 286.7° would sharpen the boundary of the blocked zone
   but is unlikely to move it by more than a few hundred metres of beach.
 
-## 6. Sources
+## 6. Addendum: the NW-corner spot (38.865119, 1.355553)
+
+A specific candidate spot at the beach's northwest corner (by the Sa Caleta
+bend, ~1 min from the north access parking) was analysed separately:
+
+- Worst obstruction: **1.86°** — the *northern shoulder* of the Cala Jondal
+  promontory at only 1.9 km, az 286.8°. Nominal margin below the solar lower
+  limb: **1.0°**.
+- Unlike the southern half of the beach (critical sightline over open sea),
+  this sightline runs **over land for its entire length**, where the cone
+  terrain model is weakest. Decision threshold: if real terrain at the
+  1.5–2.5 km crossing (near 38.871, 1.331) is ≤ ~95 m the spot is clear;
+  ≥ ~115 m and totality is blocked. DEM verification required — see
+  `ibiza-eclipse-2026-verification-prompt.md`.
+- **The blocked zone is non-monotonic along the beach**: this corner looks over
+  the hill's low north flank; 500–1200 m south of it the 160 m summit aligns
+  exactly with the Sun (blocked); the reliably safe water-horizon stretch
+  starts ~1.6 km south (south of ≈38.852 N). The worst mistake is standing in
+  between.
+- No same-day escape: the Sun only sinks to terrain-relevant altitudes ~2 min
+  before totality, far too late to relocate. The choice must be made from DEM
+  data beforehand; without data, default to the southern half.
+
+## 7. Flight logistics (departure IBZ 22:25 the same evening)
+
+Es Codolar's advantage: it is the only totality beach walkable to the terminal.
+
+| Time | Action |
+|---|---|
+| Afternoon | Return rental car; drop checked bag early if the airline allows; online check-in. Carry-on only makes the plan trivial. |
+| ~19:15 | Arrive north access; walk to chosen spot. |
+| 19:39 | Partial phase begins — glasses on. |
+| 20:32:34 | Totality (glasses off, 67 s). |
+| 20:45 | Hard deadline to start walking back (20:35 if a bag must be dropped by ~21:40). |
+| ~21:00–21:15 | Terminal via pre-booked taxi from north access (5 min) or on foot (~30–35 min from the NW corner). |
+| ~21:50 | At gate. Gate closes ~21:55–22:05. |
+
+Risks: security surge (every departing eclipse-watcher arrives at once) and
+counting on an un-booked taxi. Road congestion is irrelevant if walking.
+
+## 8. Sources
 
 - [timeanddate.com — eclipse circumstances for Ibiza, 12 Aug 2026](https://www.timeanddate.com/eclipse/in/spain/ibiza?iso=20260812)
 - [Instituto Geográfico Nacional (Spain) — total solar eclipse 12 Aug 2026](https://astronomia.ign.es/en/eclipses-de-sol-y-luna/eclipse-total-sol-de-12-de-agosto-2026)
