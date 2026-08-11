@@ -111,7 +111,21 @@ Valencia) — that is the sky the eclipse actually happens in. Distant cirrus ca
 kill a 3°-altitude eclipse under a locally clear sky. Say explicitly whether
 high cloud threatens the 20:30 sightline.
 
-## Task 4 — final recommendation
+## Task 4 — re-render the expected view from real terrain
+
+`ibiza-eclipse-2026-scripts/render_view.py` draws a two-panel panorama of the
+totality view (horizon silhouette, eclipsed Sun with corona, Sun descent path
+with time ticks, terrain-margin arrows). It currently uses the cone terrain
+model via its `horizon()` function — the only model-dependent part. Replace
+`horizon()` with one that returns (azimuth_grid, horizon_angles) computed from
+your DEM profiles over the same 262°–312° azimuth range (0.1° steps, same
+angle formula as Task 1), then regenerate the PNG for observer 6 and
+mid-beach. Needs only `numpy` and `matplotlib` (`pip install numpy
+matplotlib`); the scripts are otherwise stdlib. Save as
+`ibiza-eclipse-2026-expected-view-dem.png`, show it to me, and note visually
+where the Sun sits relative to the real skyline.
+
+## Task 5 — final recommendation
 
 I am at the airport at 22:25 (gate closes ~21:55–22:05; bag drop ~21:40 if I
 can't drop luggage earlier). Walking my spot → terminal is ~30–35 min; from
