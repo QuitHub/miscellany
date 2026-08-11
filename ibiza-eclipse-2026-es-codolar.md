@@ -147,10 +147,13 @@ For a 2 m observer eye height, with a small Earth-curvature correction
 the entire solar disc to remain visible.
 
 The important unresolved quantity is the real terrain profile on the
-**~286.74° ray from this exact point**. The earlier cone approximation is
-useful for screening obvious summits, but it is not strong enough to promote a
-specific local shoulder height to fact. A DEM profile from Spain's IGN/PNOA
-MDT05 data is the appropriate final check.
+**~286.74° ray from this exact point** — checked as a **286.2°–287.2° fan**,
+since the 0.53°-wide disc drifts 286.6°→286.8° during totality and a notch in
+the ridge can pass one ray while the ridge still clips the limb. The earlier
+cone approximation is useful for screening obvious summits, but it is not
+strong enough to promote a specific local shoulder height to fact. A DEM
+profile from Spain's IGN/PNOA MDT05 data (5 m lidar) is the appropriate final
+check.
 
 Until that DEM ray has been sampled, treat this exact NW-corner spot as
 **plausibly clear but not DEM-verified**. The southern open-water-horizon

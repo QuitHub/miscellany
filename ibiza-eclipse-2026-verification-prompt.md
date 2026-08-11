@@ -56,6 +56,24 @@ verdict lands in an ambiguous band, cross-check the critical samples against a
 `https://api.opentopodata.org/v1/srtm30m?locations=lat,lon|lat,lon|...`) and
 take the pessimistic (higher-terrain) reading.
 
+**Gold standard, if you can reach it:** Spain's IGN **PNOA MDT05** (5 m lidar
+DEM, via the IGN download centre or WCS services at ign.es). At 5 m resolution
+the Jondal-shoulder question stops being ambiguous entirely. Use Open-Meteo
+for the full sweep, MDT05 for the decisive 1–3 km window from observer 6.
+
+**Clearance ladder for observer 6** (from `exact_point.py`, lower limb 2.828°
+at 20:33:18 CEST, eye 2 m, curvature k=0.13): terrain on the eclipse bearing
+must stay below **26.7 m @ 0.5 km · 51.5 m @ 1.0 km · 76.3 m @ 1.5 km ·
+101.1 m @ 2.0 km · 125.9 m @ 2.5 km · 150.8 m @ 3.0 km · 200.7 m @ 4.0 km ·
+250.7 m @ 5.0 km** for the whole solar disc to stay visible. Compare DEM
+samples directly against this table — no angle math needed. Run
+`ibiza-eclipse-2026-scripts/exact_point.py` to regenerate it for any distance.
+
+**Do not check a single ray.** The solar disc is 0.53° wide and drifts
+286.6°→286.8° during totality: a verdict requires the terrain maximum across
+the full **286.2°–287.2° fan**, not just the 286.74° centreline — a notch in
+the ridge can pass one ray while the ridge still clips the limb.
+
 ## Task 2 — verdicts
 
 Per observer report: max terrain angle in the Sun's azimuth window, the
