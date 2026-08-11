@@ -1,2 +1,4 @@
 *.md.toc.*
 *.md.orig.*
+ibiza-eclipse-2026-scripts/*.tif
+ibiza-eclipse-2026-scripts/openmeteo_profiles.json

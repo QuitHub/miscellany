@@ -1,0 +1,667 @@
+{
+ "observers": [
+  {
+   "name": "1 South end (Cap des Falco)",
+   "lat": 38.84,
+   "lon": 1.369,
+   "max_angle": 1.6708442979878948,
+   "max_angle_glo30_only": 1.630893567651306,
+   "at_az": 286.2,
+   "at_dist_m": 10800.0,
+   "at_elev_m": 325.0,
+   "verdict": "CLEAR",
+   "margin_deg": 1.1891557020121055,
+   "sun_touches_terrain": "20:40",
+   "sun_fully_gone": "20:42"
+  },
+  {
+   "name": "2 South-mid",
+   "lat": 38.847,
+   "lon": 1.369,
+   "max_angle": 1.8986226564793012,
+   "max_angle_glo30_only": 1.8986226564793012,
+   "at_az": 286.2,
+   "at_dist_m": 11350.0,
+   "at_elev_m": 387.0408938147061,
+   "verdict": "CLEAR",
+   "margin_deg": 0.9613773435206991,
+   "sun_touches_terrain": "20:43",
+   "sun_fully_gone": "20:47"
+  },
+  {
+   "name": "3 Mid-beach",
+   "lat": 38.8515,
+   "lon": 1.3655,
+   "max_angle": 1.1739826261467508,
+   "max_angle_glo30_only": 1.1739826261467508,
+   "at_az": 286.2,
+   "at_dist_m": 10800.0,
+   "at_elev_m": 231.28544698793633,
+   "verdict": "CLEAR",
+   "margin_deg": 1.6860173738532496,
+   "sun_touches_terrain": "20:43",
+   "sun_fully_gone": "20:46"
+  },
+  {
+   "name": "4 North-mid",
+   "lat": 38.8565,
+   "lon": 1.3625,
+   "max_angle": 2.451321480803862,
+   "max_angle_glo30_only": 2.2878997998681614,
+   "at_az": 286.2,
+   "at_dist_m": 3600.0,
+   "at_elev_m": 157.0,
+   "verdict": "CLEAR",
+   "margin_deg": 0.4086785191961382,
+   "sun_touches_terrain": "20:36",
+   "sun_fully_gone": "20:40"
+  },
+  {
+   "name": "5 North end (airport road)",
+   "lat": 38.8615,
+   "lon": 1.3592,
+   "max_angle": 2.290408878164662,
+   "max_angle_glo30_only": 2.2459537136219416,
+   "at_az": 287.2,
+   "at_dist_m": 9400.0,
+   "at_elev_m": 384.0,
+   "verdict": "CLEAR",
+   "margin_deg": 0.5695911218353382,
+   "sun_touches_terrain": "20:36",
+   "sun_fully_gone": "20:39"
+  },
+  {
+   "name": "6 PLANNED SPOT (NW corner)",
+   "lat": 38.865119,
+   "lon": 1.355553,
+   "max_angle": 2.687451112618627,
+   "max_angle_glo30_only": 2.687451112618627,
+   "at_az": 286.7,
+   "at_dist_m": 8950.0,
+   "at_elev_m": 427.57597225137124,
+   "verdict": "CLEAR",
+   "margin_deg": 0.1725488873813732,
+   "sun_touches_terrain": "20:34",
+   "sun_fully_gone": "20:37"
+  }
+ ],
+ "boundary": {
+  "chain_total_m": 4192.2956245275245,
+  "samples": [
+   {
+    "m_north_of_cape": 0,
+    "lat": 38.8304,
+    "lon": 1.3708,
+    "max_fan_angle": 0.85,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 51,
+    "lat": 38.830857,
+    "lon": 1.370714,
+    "max_fan_angle": 0.85,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 103,
+    "lat": 38.831314,
+    "lon": 1.370629,
+    "max_fan_angle": 0.85,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 154,
+    "lat": 38.831771,
+    "lon": 1.370543,
+    "max_fan_angle": 0.859,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 205,
+    "lat": 38.832229,
+    "lon": 1.370457,
+    "max_fan_angle": 0.884,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 257,
+    "lat": 38.832686,
+    "lon": 1.370371,
+    "max_fan_angle": 0.884,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 308,
+    "lat": 38.833143,
+    "lon": 1.370286,
+    "max_fan_angle": 0.883,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 360,
+    "lat": 38.8336,
+    "lon": 1.3702,
+    "max_fan_angle": 0.898,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 411,
+    "lat": 38.834057,
+    "lon": 1.370114,
+    "max_fan_angle": 0.892,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 462,
+    "lat": 38.834514,
+    "lon": 1.370029,
+    "max_fan_angle": 0.958,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 514,
+    "lat": 38.834971,
+    "lon": 1.369943,
+    "max_fan_angle": 1.145,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 565,
+    "lat": 38.835429,
+    "lon": 1.369857,
+    "max_fan_angle": 1.056,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 616,
+    "lat": 38.835886,
+    "lon": 1.369771,
+    "max_fan_angle": 1.133,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 668,
+    "lat": 38.836343,
+    "lon": 1.369686,
+    "max_fan_angle": 1.196,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 719,
+    "lat": 38.8368,
+    "lon": 1.3696,
+    "max_fan_angle": 1.309,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 771,
+    "lat": 38.837257,
+    "lon": 1.369514,
+    "max_fan_angle": 1.432,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 822,
+    "lat": 38.837714,
+    "lon": 1.369429,
+    "max_fan_angle": 1.542,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 873,
+    "lat": 38.838171,
+    "lon": 1.369343,
+    "max_fan_angle": 1.644,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 925,
+    "lat": 38.838629,
+    "lon": 1.369257,
+    "max_fan_angle": 1.642,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 976,
+    "lat": 38.839086,
+    "lon": 1.369171,
+    "max_fan_angle": 1.657,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1027,
+    "lat": 38.839543,
+    "lon": 1.369086,
+    "max_fan_angle": 1.641,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1079,
+    "lat": 38.84,
+    "lon": 1.369,
+    "max_fan_angle": 1.671,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1131,
+    "lat": 38.840467,
+    "lon": 1.369,
+    "max_fan_angle": 1.636,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1183,
+    "lat": 38.840933,
+    "lon": 1.369,
+    "max_fan_angle": 1.691,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1234,
+    "lat": 38.8414,
+    "lon": 1.369,
+    "max_fan_angle": 1.765,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1286,
+    "lat": 38.841867,
+    "lon": 1.369,
+    "max_fan_angle": 1.854,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1338,
+    "lat": 38.842333,
+    "lon": 1.369,
+    "max_fan_angle": 1.923,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1390,
+    "lat": 38.8428,
+    "lon": 1.369,
+    "max_fan_angle": 1.968,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1442,
+    "lat": 38.843267,
+    "lon": 1.369,
+    "max_fan_angle": 1.978,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1494,
+    "lat": 38.843733,
+    "lon": 1.369,
+    "max_fan_angle": 1.988,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1546,
+    "lat": 38.8442,
+    "lon": 1.369,
+    "max_fan_angle": 1.993,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1598,
+    "lat": 38.844667,
+    "lon": 1.369,
+    "max_fan_angle": 1.983,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1650,
+    "lat": 38.845133,
+    "lon": 1.369,
+    "max_fan_angle": 1.961,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1701,
+    "lat": 38.8456,
+    "lon": 1.369,
+    "max_fan_angle": 1.942,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1753,
+    "lat": 38.846067,
+    "lon": 1.369,
+    "max_fan_angle": 1.923,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1805,
+    "lat": 38.846533,
+    "lon": 1.369,
+    "max_fan_angle": 1.912,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1857,
+    "lat": 38.847,
+    "lon": 1.369,
+    "max_fan_angle": 1.899,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1910,
+    "lat": 38.847409,
+    "lon": 1.368682,
+    "max_fan_angle": 1.883,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 1963,
+    "lat": 38.847818,
+    "lon": 1.368364,
+    "max_fan_angle": 1.836,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2017,
+    "lat": 38.848227,
+    "lon": 1.368045,
+    "max_fan_angle": 1.757,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2070,
+    "lat": 38.848636,
+    "lon": 1.367727,
+    "max_fan_angle": 1.65,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2123,
+    "lat": 38.849045,
+    "lon": 1.367409,
+    "max_fan_angle": 1.555,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2176,
+    "lat": 38.849455,
+    "lon": 1.367091,
+    "max_fan_angle": 1.499,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2229,
+    "lat": 38.849864,
+    "lon": 1.366773,
+    "max_fan_angle": 1.414,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2283,
+    "lat": 38.850273,
+    "lon": 1.366455,
+    "max_fan_angle": 1.339,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2336,
+    "lat": 38.850682,
+    "lon": 1.366136,
+    "max_fan_angle": 1.269,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2389,
+    "lat": 38.851091,
+    "lon": 1.365818,
+    "max_fan_angle": 1.21,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2442,
+    "lat": 38.8515,
+    "lon": 1.3655,
+    "max_fan_angle": 1.174,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2493,
+    "lat": 38.851917,
+    "lon": 1.36525,
+    "max_fan_angle": 1.139,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2544,
+    "lat": 38.852333,
+    "lon": 1.365,
+    "max_fan_angle": 1.292,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2595,
+    "lat": 38.85275,
+    "lon": 1.36475,
+    "max_fan_angle": 1.294,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2647,
+    "lat": 38.853167,
+    "lon": 1.3645,
+    "max_fan_angle": 1.458,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2698,
+    "lat": 38.853583,
+    "lon": 1.36425,
+    "max_fan_angle": 1.613,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2749,
+    "lat": 38.854,
+    "lon": 1.364,
+    "max_fan_angle": 1.681,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2800,
+    "lat": 38.854417,
+    "lon": 1.36375,
+    "max_fan_angle": 1.879,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2851,
+    "lat": 38.854833,
+    "lon": 1.3635,
+    "max_fan_angle": 2.047,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2902,
+    "lat": 38.85525,
+    "lon": 1.36325,
+    "max_fan_angle": 2.23,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 2953,
+    "lat": 38.855667,
+    "lon": 1.363,
+    "max_fan_angle": 2.4,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3005,
+    "lat": 38.856083,
+    "lon": 1.36275,
+    "max_fan_angle": 2.433,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3056,
+    "lat": 38.8565,
+    "lon": 1.3625,
+    "max_fan_angle": 2.451,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3108,
+    "lat": 38.856917,
+    "lon": 1.362225,
+    "max_fan_angle": 2.375,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3160,
+    "lat": 38.857333,
+    "lon": 1.36195,
+    "max_fan_angle": 2.343,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3212,
+    "lat": 38.85775,
+    "lon": 1.361675,
+    "max_fan_angle": 2.274,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3264,
+    "lat": 38.858167,
+    "lon": 1.3614,
+    "max_fan_angle": 2.066,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3316,
+    "lat": 38.858583,
+    "lon": 1.361125,
+    "max_fan_angle": 1.918,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3368,
+    "lat": 38.859,
+    "lon": 1.36085,
+    "max_fan_angle": 1.976,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3420,
+    "lat": 38.859417,
+    "lon": 1.360575,
+    "max_fan_angle": 2.042,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3472,
+    "lat": 38.859833,
+    "lon": 1.3603,
+    "max_fan_angle": 2.083,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3525,
+    "lat": 38.86025,
+    "lon": 1.360025,
+    "max_fan_angle": 2.126,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3577,
+    "lat": 38.860667,
+    "lon": 1.35975,
+    "max_fan_angle": 2.175,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3629,
+    "lat": 38.861083,
+    "lon": 1.359475,
+    "max_fan_angle": 2.217,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3681,
+    "lat": 38.8615,
+    "lon": 1.3592,
+    "max_fan_angle": 2.29,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3732,
+    "lat": 38.861862,
+    "lon": 1.358835,
+    "max_fan_angle": 2.328,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3783,
+    "lat": 38.862224,
+    "lon": 1.358471,
+    "max_fan_angle": 2.371,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3834,
+    "lat": 38.862586,
+    "lon": 1.358106,
+    "max_fan_angle": 2.409,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3885,
+    "lat": 38.862948,
+    "lon": 1.357741,
+    "max_fan_angle": 2.478,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3937,
+    "lat": 38.863309,
+    "lon": 1.357376,
+    "max_fan_angle": 2.555,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 3988,
+    "lat": 38.863671,
+    "lon": 1.357012,
+    "max_fan_angle": 2.632,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 4039,
+    "lat": 38.864033,
+    "lon": 1.356647,
+    "max_fan_angle": 2.679,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 4090,
+    "lat": 38.864395,
+    "lon": 1.356282,
+    "max_fan_angle": 2.675,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 4141,
+    "lat": 38.864757,
+    "lon": 1.355918,
+    "max_fan_angle": 2.665,
+    "verdict": "CLEAR"
+   },
+   {
+    "m_north_of_cape": 4192,
+    "lat": 38.865119,
+    "lon": 1.355553,
+    "max_fan_angle": 2.687,
+    "verdict": "CLEAR"
+   }
+  ]
+ }
+}
